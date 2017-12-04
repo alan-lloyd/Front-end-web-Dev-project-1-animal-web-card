@@ -1,0 +1,31 @@
+/* add your CSS here */
+
+/*all image and textual contents - 300px wide + 20px padding each side + borders 2 x 1px = 342px total width */
+#specific-animal {
+border: 1px solid #CCC;
+box-shadow: 5px 5px 20px #CCC;
+padding: 20px;
+max-width: 300px;
+}
+
+/* title of animal - with no top margin, to decrease excess whitespace above it */
+.animal-title {
+margin-top:0px;
+}
+
+/* top para text below image */
+.interesting-fact {
+font-style: italic;
+}
+
+/* itemised features of the animal */
+.list-items {
+font-weight: bold;
+}
+
+/* bottom para text */
+.animal-textual-information {
+border: 1px solid #CCC;
+margin-top: 20px;
+padding: 5px;
+}
